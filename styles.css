@@ -76,7 +76,7 @@ h1{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 30px 0;
+	margin: 15px 0;
 	height: 30px;
 }
 .single-dot{
@@ -92,4 +92,13 @@ h1{
 
 .single-dot.active{
 	background: #eee;
+}
+
+@media screen and (max-width: 400px){
+
+.slide-image img{
+	width: 500px;
+	height: 600px;
+}
+
 }
